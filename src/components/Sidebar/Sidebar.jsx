@@ -1,0 +1,44 @@
+import React from 'react';
+import './Sidebar.css';
+import { assets } from '../../assets/assets';
+
+const Sidebar = () => {
+  return (
+    <div className='sidebar w-1/9'> 
+        <div className="top">
+            <img className='menu' src={assets.menu_icon} alt="Menu" />
+            <div className="new-chat">
+                <img src={assets.plus_icon} alt="New Chat" />
+            </div>
+        </div>
+        
+        <div className="mid">
+          <div className="recent-entry">
+            <img src={assets.admin_icon} alt="Message" />
+            <p>Admin</p>
+          </div>
+          <div className="recent-entry">
+            <img src={assets.message_icon} alt="Message" />
+            <p>Class</p>
+          </div>
+          <div className="recent-entry">
+            <img src={assets.manageuser_icon} alt="Message" />
+            <p>Manage<br/>Users</p>
+          </div>
+          <div className="recent-entry">
+            <img src={assets.logout_icon} alt="Message" />
+            <p>Logout</p>
+          </div>
+        </div>
+
+      <div className="bottom">
+        <div className="bottom-item recent-entry">
+          <img src={assets.settings_icon} alt="Settings" />
+          <p>Settings</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Sidebar; 

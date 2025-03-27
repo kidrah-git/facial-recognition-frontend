@@ -1,0 +1,86 @@
+.sidebar {
+    min-height: 100vh;
+    display: flex; /* Change inline-flex to flex */
+    flex-direction: column;
+    justify-content: space-between; /* Center both vertically and horizontally */
+    background-color: #f0f4f9;
+    padding: 25px 15px;
+    align-items: center; /* Align items to the center */
+}
+
+.sidebar .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items */
+    width: 100%; /* Take full width */
+    gap: 10px;
+}
+
+.sidebar img {
+    width: 24px;
+    display: block; /* Ensure images are centered as blocks */
+}
+
+.sidebar p {
+    font-size: 16px;
+    text-align: center; /* Center text */
+    margin: 0; /* Remove default margin */
+}
+
+.sidebar menu {
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center; /* Center align menu items */
+}
+
+.sidebar .new-chat {
+    display: flex; /* Change to flex for better alignment */
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #ebeaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+    justify-content: center; /* Center new chat button content */
+}
+
+.sidebar .mid {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1.5s;
+    align-items: center; /* Center mid section */
+    gap: 20px;
+}
+
+.sidebar .recent-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items */
+    justify-content: center;
+    gap: 6px;
+    border-radius: 50px;
+    color: #282828;
+    cursor: pointer;
+}
+
+.sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center bottom section */
+}
+
+.sidebar .bottom-item {
+    padding-right: 10px;
+    cursor: pointer;
+    text-align: center; /* Center bottom item text */
+}
+
+/* Media queries remain unchanged */
+@media (max-width:600px) {
+    .sidebar {
+        display: none;
+    }
+}

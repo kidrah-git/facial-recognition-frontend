@@ -176,7 +176,7 @@ const SignUp = () => {
                 <button className="bg-gray-200 p-2 rounded-md text-sm">Drag and Drop Images Here</button>
               </div>
             </div>
-            <button className="bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700">Sign-Up</button>
+            <button className="bg-blue-600 p-2 rounded-md hover:bg-blue-700">Sign-Up</button>
             <button className="mt-2 text-blue-500" onClick={() => setSelectedRole(null)}>Back</button>
 
             

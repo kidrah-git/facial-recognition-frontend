@@ -11,7 +11,7 @@ const Login = () => {
         <form action="/">
           <div className="flex flex-col gap-y-2 p-5 border border-gray-400 rounded-sm">
             <div className="grid grid-cols-2 gap-x-2">
-              <label htmlFor="studentId">Student ID</label>
+              <label htmlFor="studentId">User ID</label>
               <input
                 type="text"
                 name="studentID"

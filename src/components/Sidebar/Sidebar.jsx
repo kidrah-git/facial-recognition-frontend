@@ -25,17 +25,18 @@ const Sidebar = () => {
             <img src={assets.manageuser_icon} alt="Message" />
             <p>Manage<br/>Users</p>
           </div>
-          <div className="recent-entry">
+          <a href='/' className="recent-entry">
+            
             <img src={assets.logout_icon} alt="Message" />
             <p>Logout</p>
-          </div>
+          </a>
         </div>
 
       <div className="bottom">
-        <div className="bottom-item recent-entry">
+        <a href='/setting' className="bottom-item recent-entry">
           <img src={assets.settings_icon} alt="Settings" />
           <p>Settings</p>
-        </div>
+        </a>
       </div>
     </div>
   );

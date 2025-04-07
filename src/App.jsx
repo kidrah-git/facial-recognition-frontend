@@ -5,6 +5,11 @@ import SignUp from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import TeacherDashboard from "./pages/TeacherDashboard";
 import StudentDashboard from "./pages/StudentDashboard";
+import Setting from "./pages/Setting";
+import StudentProfile from "./pages/StudentProfile";
+import StudentList from "./pages/StudentList";
+
+
 function App() {
   return (
     <Router>
@@ -12,11 +17,15 @@ function App() {
       <Routes>
         {/* <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} /> */}
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/teacher-dashboard" element={<TeacherDashboard />} />
-        <Route path="student-dashboard" element={<StudentDashboard />} />
+        <Route path="/student-dashboard" element={<StudentDashboard />} />
+        <Route path="/setting" element={<Setting />} />
+        <Route path="/student-profile" element={<StudentProfile />} />
+        <Route path="/student-list" element={<StudentList />} />
+        
       </Routes>
     </Router>
   );

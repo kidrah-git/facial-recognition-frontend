@@ -13,14 +13,14 @@ const Sidebar = () => {
         </div>
         
         <div className="mid">
-          <div className="recent-entry">
+          <a href='/student-list' className="recent-entry">
             <img src={assets.admin_icon} alt="Message" />
-            <p>Admin</p>
-          </div>
-          <div className="recent-entry">
+            <p>Students</p>
+          </a>
+          <a href='/teacher-list' className="recent-entry">
             <img src={assets.message_icon} alt="Message" />
-            <p>Class</p>
-          </div>
+            <p>Teachers</p>
+          </a>
           <div className="recent-entry">
             <img src={assets.manageuser_icon} alt="Message" />
             <p>Manage<br/>Users</p>

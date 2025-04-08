@@ -5,9 +5,11 @@ import SignUp from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import TeacherDashboard from "./pages/TeacherDashboard";
 import StudentDashboard from "./pages/StudentDashboard";
-import Setting from "./pages/Setting";
-import StudentProfile from "./pages/StudentProfile";
-import StudentList from "./pages/StudentList";
+import StudentProfile from "./pages/Admin/StudentProfile";
+import StudentList from "./pages/Admin/StudentList";
+import TeacherProfile from "./pages/Admin/TeacherProfile";
+import SettingsPage from "./pages/Setting";
+
 
 
 function App() {
@@ -20,11 +22,12 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/teacher-dashboard" element={<TeacherDashboard />} />
+        <Route path="/teacher-dashboard" element={<TeacherDashboard/>} />
         <Route path="/student-dashboard" element={<StudentDashboard />} />
-        <Route path="/setting" element={<Setting />} />
+        <Route path="/setting" element={<SettingsPage />} />
         <Route path="/student-profile" element={<StudentProfile />} />
         <Route path="/student-list" element={<StudentList />} />
+        <Route path="/teacher-profile" element={<TeacherProfile />} />
         
       </Routes>
     </Router>

@@ -1,10 +1,10 @@
 // TeacherProfile.jsx
 import React from "react";
-import TeacherLayout from "../../components/Layouts/TeacherLayout";
+import AdminLayout from "../../components/Layouts/AdminLayout";
 
 const TeacherProfile = () => {
   return (
-    <TeacherLayout>
+    <AdminLayout>
       <div className="bg-white p-6 rounded-2xl shadow-md max-w-3xl mx-auto">
         <div className="flex items-center gap-6 mb-6">
           <img
@@ -44,7 +44,7 @@ const TeacherProfile = () => {
           </button>
         </div>
       </div>
-    </TeacherLayout>
+    </AdminLayout>
   );
 };
 

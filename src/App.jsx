@@ -9,6 +9,7 @@ import StudentProfile from "./pages/Admin/StudentProfile";
 import StudentList from "./pages/Admin/StudentList";
 import TeacherProfile from "./pages/Admin/TeacherProfile";
 import SettingsPage from "./pages/Setting";
+import TeacherList from "./pages/Admin/TeacherList";
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/student-profile" element={<StudentProfile />} />
         <Route path="/student-list" element={<StudentList />} />
         <Route path="/teacher-profile" element={<TeacherProfile />} />
+        <Route path="/teacher-list" element={<TeacherList />} />
         
       </Routes>
     </Router>

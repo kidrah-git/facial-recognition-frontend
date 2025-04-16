@@ -6,7 +6,7 @@ const AdminLayout = ({ children }) => {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="w-full">{children}</div>
+      <div className="w-full ml-32 h-full overflow-y-auto relative z-0">{children}</div>
     </div>
   );
 };

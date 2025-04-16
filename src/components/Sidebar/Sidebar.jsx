@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets';
 
 const Sidebar = () => {
   return (
-    <div className='sidebar w-1/9'> 
+    <div className='sidebar w-32 h-screen fixed'> 
         <div className="top">
             <img className='menu' src={assets.menu_icon} alt="Menu" />
             <div className="new-chat">

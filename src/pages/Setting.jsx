@@ -42,7 +42,7 @@ const SettingsPage = () => {
       <Sidebar />
 
       {/* Main Settings Content */}
-      <main className="flex-1 m-4 p-6 bg-white rounded-lg shadow overflow-auto">
+      <main className="flex-1 m-4 p-6 bg-white rounded-lg shadow overflow-auto ml-32 h-full overflow-y-auto relative z-0">
         <h1 className="text-2xl font-bold mb-6">Settings</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

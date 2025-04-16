@@ -10,6 +10,8 @@ import StudentList from "./pages/Admin/StudentList";
 import TeacherProfile from "./pages/Admin/TeacherProfile";
 import SettingsPage from "./pages/Setting";
 import TeacherList from "./pages/Admin/TeacherList";
+import AttendanceRecordTable from "./pages/Admin/AttendanceRecordTable";
+import AdminLayout from "./components/Layouts/AdminLayout";
 
 
 
@@ -30,7 +32,9 @@ function App() {
         <Route path="/student-list" element={<StudentList />} />
         <Route path="/teacher-profile" element={<TeacherProfile />} />
         <Route path="/teacher-list" element={<TeacherList />} />
-        
+        <Route path="/attendance-record-list" element={<AttendanceRecordTable />} />
+        <Route path="/admin-layout" element={<AdminLayout/>} />
+
       </Routes>
     </Router>
   );
